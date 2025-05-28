@@ -1,0 +1,63 @@
+body {
+    font-family: 'Times New Roman',sans-serif;
+    background-image: url(https://images.pond5.com/beautiful-sunny-spring-peaceful-nature-footage-086422930_iconl.jpeg);/* or a full URL */
+    background-size: cover; /* cover the entire page */
+    background-position: center; /* center the image */
+    background-repeat: no-repeat; /* do not repeat the image */
+    background-attachment: fixed; /* keep the image fixed while scrolling */
+    background-color: #000; /* fallback color */
+    padding: 2rem;
+     color: #181712;
+    font-size: 1.2rem;
+
+    word-spacing: 0.1rem;
+    line-height: 1.5;
+    margin: 1;
+}
+h1 {
+    font-size: 2.5rem;
+    color: #181817cb;
+    text-align:left;
+    margin-bottom: .5rem;
+    margin-top: 1rem;
+    text-align: center;
+    
+}
+h4 {
+    font-size: 1.5rem;
+    color: #1b1b1bcb;
+    text-align:left;
+    margin-bottom: 2rem;
+    margin-top: 3.5rem;
+    line-height: .5;
+    column-gap: 0.5rem; /*small gap between columns*/
+    column-count: 2; /*number of columns*/    
+
+}
+ul {
+    list-style-type:disc;
+    padding: 2rem;
+    margin-left: 1.5 rem;
+}
+button {
+    background-color: #13131263;
+    color: #121311;
+    padding: 1rem;
+    border-radius: -.5rem;
+    margin-bottom: 2rem;
+}
+.menu-icon {
+    width: 3.5rem;
+    position:fixed;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+    font-size:1.5rem;
+    background-color:transparent;
+    color: #181817cb;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:25%;
+}
